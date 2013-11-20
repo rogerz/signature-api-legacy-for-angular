@@ -1,0 +1,18 @@
+{
+  "name": "signature-api-legacy-for-angular",
+  "repo": "rogerz/signature-api-legacy-for-angular",
+  "description": "legacy php API of signature backend",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "jashkenas/underscore": "*",
+    "component/querystring": "*",
+    "samsonjs/format": "*"
+  },
+  "development": {
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
