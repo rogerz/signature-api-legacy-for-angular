@@ -5,3 +5,4 @@ before_script:
   - 'npm install -g bower grunt-cli component'
   - 'bower install'
   - 'component install'
+  - 'grunt build'
