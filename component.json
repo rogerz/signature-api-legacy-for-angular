@@ -9,10 +9,10 @@
     "component/querystring": "*",
     "samsonjs/format": "*"
   },
-  "development": {
-  },
+  "development": {},
   "license": "MIT",
   "scripts": [
     "index.js"
-  ]
+  ],
+  "remotes": []
 }

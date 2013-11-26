@@ -1,0 +1,39 @@
+{
+  "name": "signature-api-legacy-for-angular",
+  "version": "0.0.0",
+  "description": "legacy php API of signature backend",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-karma": "~0.6.2",
+    "karma": "~0.10.5",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.3",
+    "karma-ng-html2js-preprocessor": "~0.1.0",
+    "karma-ng-scenario": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma-requirejs": "~0.2.0",
+    "karma-script-launcher": "~0.1.0",
+    "requirejs": "~2.1.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rogerz/signature-api-legacy-for-angular.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rogerz/signature-api-legacy-for-angular/issues"
+  },
+  "homepage": "https://github.com/rogerz/signature-api-legacy-for-angular"
+}
