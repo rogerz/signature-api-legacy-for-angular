@@ -7,6 +7,8 @@
     "test": "test"
   },
   "dependencies": {
+  },
+  "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-karma": "~0.6.2",
     "karma": "~0.10.5",
@@ -21,20 +23,18 @@
     "karma-requirejs": "~0.2.0",
     "karma-script-launcher": "~0.1.0",
     "requirejs": "~2.1.9",
-    "grunt-component-build": "~0.4.2"
-  },
-  "devDependencies": {
+    "grunt-component-build": "~0.4.2",
     "load-grunt-tasks": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/rogerz/signature-api-legacy-for-angular.git"
   },
-  "author": "",
+  "author": "Rogerz Zhang",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/rogerz/signature-api-legacy-for-angular/issues"
