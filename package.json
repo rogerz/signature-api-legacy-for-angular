@@ -20,9 +20,13 @@
     "karma-phantomjs-launcher": "~0.1.0",
     "karma-requirejs": "~0.2.0",
     "karma-script-launcher": "~0.1.0",
-    "requirejs": "~2.1.9"
+    "requirejs": "~2.1.9",
+    "grunt-component-build": "~0.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "load-grunt-tasks": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
