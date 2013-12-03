@@ -7,13 +7,18 @@
   "dependencies": {
     "jashkenas/underscore": "*",
     "component/querystring": "*",
-    "samsonjs/format": "*"
+    "samsonjs/format": "*",
+    "rogerz/control-panel-for-angular": "*",
+    "leostera/angular.js": "*"
   },
   "development": {},
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": [
     "lib/index.js"
+  ],
+  "templates": [
+    "lib/panel.html"
   ],
   "remotes": []
 }

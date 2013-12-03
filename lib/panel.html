@@ -1,0 +1,16 @@
+<ul class="list-group">
+  <li class="list-group-item">
+    <label>Server</label>
+    <select ng-model="ctx.server">
+      <option ng-repeat="alias, address in ctx.hosts" value="{{address}}">{{alias}}</option>
+    </select>
+  </li>
+  <li class="list-group-item">
+    <label>Event ID:</label>
+    <input type="text" ng-model="ctx.eventId"></input>
+  </li>
+  <li class="list-group-item">
+    <label>Polling interval:</label>
+    <input type="range" min="1000" max="10000" step="1000" ng-model="ctx.pollInterval"></input>{{ctx.pollInterval}}ms
+  </li>
+</ul>
