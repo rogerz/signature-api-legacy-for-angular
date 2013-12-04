@@ -34,7 +34,7 @@ describe('signature API', function () {
       $httpBackend = $injector.get('$httpBackend');
       signatureApi = $injector.get('signatureApi');
     });
-    signatureApi.setup('test', {eventId: 118});
+    signatureApi.config({server: 'http://10.0.0.1',eventId: 118});
   });
 
   afterEach(function () {
@@ -43,15 +43,15 @@ describe('signature API', function () {
   });
 
   it('should export API', function () {
-    ['setup', 'list', 'update', 'add'].forEach(function (api) {
+    ['on', 'config', 'list', 'update', 'add', 'poll'].forEach(function (api) {
       expect(angular.isFunction(signatureApi[api])).toBe(true);
     });
   });
 
   it('should send request', function () {
-    $httpBackend.expectGET('http://10.0.0.1/?m=api&a=do_e_signature_list&c_event_id=118&directory=1')
+    $httpBackend.expectGET('http://10.0.0.1/?c_event_id=118&m=api&a=do_e_signature_list&directory=1')
     .respond(200, response.list);
-    $httpBackend.expectGET('http://10.0.0.1/?last_id=1242&m=api&a=do_e_signature_list&c_event_id=118&directory=1')
+    $httpBackend.expectGET('http://10.0.0.1/?last_id=1242&c_event_id=118&m=api&a=do_e_signature_list&directory=1')
     .respond(200, response.update);
 
     signatureApi.list(function () {
