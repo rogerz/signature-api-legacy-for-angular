@@ -1,10 +1,11 @@
 describe('signature API', function () {
   var signatureApi;
-  var hosts = {
-    'test': 'http://10.0.0.1',
-    'dev': 'http://10.0.0.2',
-    'prod': 'http://10.0.0.3'
-  };
+  var hosts = [
+    {name: 'test', address: 'http://10.0.0.1'},
+    {name: 'dev', address: 'http://10.0.0.2'},
+    {name: 'prod', address: 'http://10.0.0.3'}
+  ];
+
   var response = {
     list: [{
       "id":"1241",
