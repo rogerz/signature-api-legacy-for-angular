@@ -24,8 +24,13 @@ module.exports = function (grunt) {
         dev: true,
         sourceUrls: true
       },
-      component: {
-        src: '.'
+      example: {
+        src: '.',
+        dest: 'example'
+      },
+      test: {
+        src: '.',
+        dest: 'test'
       }
     },
     karma: {
@@ -36,16 +41,12 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask('build', [
-    'componentbuild'
-  ]);
-
   grunt.registerTask('test', [
+    'componentbuild:test',
     'karma'
   ]);
 
   grunt.registerTask('default', [
-    'build',
     'test'
   ]);
 };

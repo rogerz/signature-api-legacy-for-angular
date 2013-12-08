@@ -8,8 +8,7 @@
     "jashkenas/underscore": "*",
     "component/querystring": "*",
     "samsonjs/format": "*",
-    "rogerz/control-panel-for-angular": "*",
-    "leostera/angular.js": "*"
+    "rogerz/control-panel-for-angular": "*"
   },
   "development": {},
   "license": "MIT",

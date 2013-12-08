@@ -1,5 +1,3 @@
-var angular = require('angular');
-
 angular.module('signApiDemo', [
   require('signature-api-legacy-for-angular').name
 ]).config(function (signatureApiProvider) {
