@@ -2,7 +2,7 @@
   <li class="list-group-item">
     <label>Server</label>
     <select ng-model="ctx.server">
-      <option ng-repeat="(alias, address) in ctx.hosts" value="{{address}}">{{alias}}</option>
+      <option ng-repeat="host in ctx.hosts" value="{{host.address}}">{{host.name}}</option>
     </select> {{ctx.server}}
   </li>
   <li class="list-group-item">
