@@ -1,9 +1,10 @@
 <ul class="list-group">
   <li class="list-group-item">
     <label>Server</label>
-    <select ng-model="ctx.server">
+    <input ng-model="ctx.server" list="servers">
+    <datalist id="servers">
       <option ng-repeat="host in ctx.hosts" value="{{host.address}}">{{host.name}}</option>
-    </select> {{ctx.server}}
+    </datalist>
   </li>
   <li class="list-group-item">
     <label>Event ID:</label>

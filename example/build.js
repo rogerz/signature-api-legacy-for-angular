@@ -2007,9 +2007,10 @@ require.register("signature-api-legacy-for-angular/lib/panel.html", Function("ex
 "module.exports = '<ul class=\"list-group\">\\n\
   <li class=\"list-group-item\">\\n\
     <label>Server</label>\\n\
-    <select ng-model=\"ctx.server\">\\n\
-      <option ng-repeat=\"host in ctx.hosts\" value=\"{{host.address}}\">{{host.name}}</option>\\n\
-    </select> {{ctx.server}}\\n\
+    <input ng-model=\"ctx.server\" list=\"servers\">\\n\
+    <datalist id=\"servers\">\\n\
+      <option ng-repeat=\"host in ctx.hosts\" value=\"{{host.address}}\">{{host.name}}</option>      \\n\
+    </datalist>\\n\
   </li>\\n\
   <li class=\"list-group-item\">\\n\
     <label>Event ID:</label>\\n\
