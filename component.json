@@ -2,7 +2,7 @@
   "name": "signature-api-legacy-for-angular",
   "repo": "rogerz/signature-api-legacy-for-angular",
   "description": "legacy php API of signature backend",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "keywords": [],
   "dependencies": {
     "jashkenas/underscore": "6c102a76dbebe7b4da0c245a734483af6df644c9",
