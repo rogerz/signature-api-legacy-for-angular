@@ -5,10 +5,10 @@
   "version": "0.0.2",
   "keywords": [],
   "dependencies": {
-    "jashkenas/underscore": "*",
-    "component/querystring": "*",
-    "samsonjs/format": "*",
-    "rogerz/control-panel-for-angular": "*"
+    "jashkenas/underscore": "6c102a76dbebe7b4da0c245a734483af6df644c9",
+    "component/querystring": "1.2.0",
+    "samsonjs/format": "v0.2.1",
+    "rogerz/control-panel-for-angular": "0.0.2"
   },
   "development": {},
   "license": "MIT",
